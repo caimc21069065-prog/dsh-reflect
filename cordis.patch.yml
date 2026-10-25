@@ -1,0 +1,6 @@
+# dsh-reflect bundle layer: inserts the plugin into any profile that lists
+# this bundle. Schema defaults make the row zero-config; override fields on
+# this entry (config: {...}) to tune detection and targets.
+- insert:
+    - id: dsh-reflect
+      name: dsh-reflect
